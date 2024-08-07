@@ -1,0 +1,453 @@
+.body{
+    background-color: rgb(199, 216, 231);
+
+}
+
+
+/* Header/Return Button Starts Here */
+
+.home a{
+    font-size: 50px;
+}
+.header h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    color: rgb(231, 22, 22);
+    text-align: center;
+
+}
+
+.header p{
+    text-align: center;
+    font-size: 18px;
+    color:black;
+}
+
+/* Header/Return Button Ends Here */
+
+
+
+.main{
+    width: 100%;
+    margin-top: 80px;
+    background-color: rgb(97, 241, 97);
+    margin: auto;
+}
+
+.main-sub{
+    width: 50%;
+    margin: auto;
+}
+
+
+/* Here are social buttons designs */
+.socials i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.socials{
+    /* background-color: rgb(3, 3, 3); */
+    margin-top: 90px;
+    width: 100%;
+}
+
+
+.s-icon{
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 40px;
+    
+}
+
+.fb i{
+    color: rgb(14, 101, 233);
+    font-size: 40px;
+    padding: 15px 22px;
+    
+}
+
+.insta i{
+    color: rgba(250, 99, 145, 0.582);
+    font-size: 40px;
+    padding: 15px 18px;
+}
+
+.x i{
+    color: black;
+    font-size: 38px;
+    padding: 15px 18px;
+
+}
+
+.youtube i{
+    color: red;
+    font-size: 40px;
+    padding: 16px 13px;
+}
+
+.whatsapp i {
+    color: green;
+    font-size: 40px;
+    padding: 15px 18px;
+}
+
+
+
+
+
+/* Designs for Main-Sub1 Starts here */
+.main-sub1{
+    width: 35%;
+    background-color: azure;
+    margin: 40px 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.main-sub h1{
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.1svh;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+
+.main-sub p{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.signup h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.signup p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.form{
+    background-color: azure;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 35px;
+    /* align-items: center; */
+
+}
+
+.form-item{
+    width: 100%;
+    /* background-color: green; */
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.form-item1{
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* background-color: red; */
+}
+
+.c-submit{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+.cancel{
+    /* background-color: blue; */
+    width: 50%;
+    text-align: right;
+}
+
+.cancel input{
+    background-color: rgb(245, 152, 152);
+    border-radius: 10px;
+}
+
+.cancel input:hover{
+    background-color: red;
+    color: aliceblue;
+    border: 3px solid black;
+
+}
+
+
+
+/* Designs for Submit button */
+
+.submit{
+    /* background-color: yellow; */
+    width: 50%;
+    text-align: left;
+}
+
+.submit input{
+    background-color: rgb(99, 247, 99);
+    border-radius: 10px;
+}
+
+.submit input:hover{
+    background-color: green;
+    color: white;
+    border: 3px solid black;
+}
+label {
+    font-size: 20px;
+    color:black;
+}
+
+input{
+    padding: 10px 20px;
+    margin-right: 40px;
+    border: 2px solid blue;
+
+}
+
+select{
+    padding: 10px 20px;
+    margin-right: 40px;
+    border: 2px solid blue;
+
+}
+
+input [type=text]{
+    padding: 10px 20px;
+    margin-right: 40px;
+
+}
+
+input [type=date]{
+    padding: 10px 20px;
+    margin-right: 40px;
+
+}
+
+
+
+.a{
+    margin-bottom: 20px;
+}
+
+
+
+/* Here for Native & Date of Birth */
+
+#b{
+    padding: 10px 20px;
+    margin-right: 40px;
+    width: 225px;
+
+}
+
+.form p{
+    margin-top: 15px;
+    font-size: 20px;
+    /* background-color: green; */
+    width: 100%;
+    text-align: center;
+
+    
+}
+
+.form p a{
+    text-decoration: none;
+    
+}
+
+.form p a:hover{
+color: brown;
+font-size: 25px;
+}
+
+
+
+
+/* MOBILE RESPONSIVENESS STARTS HERE */
+@media (max-width:1536px){
+
+    .main-sub h1{
+        font-size: 45px;
+    }
+
+    .main-sub p{
+        font-size: 25px;
+    }
+    
+    .socials a i{
+        font-size: 40px;
+    }
+
+    .signup h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 25px;
+       
+    
+    }
+    
+    .signup p{
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .main-sub1{
+        width: 45%;
+    }
+
+    label {
+        font-size: 18px; 
+    }
+    
+    input{
+        padding: 8px 15px; 
+    }
+
+}
+
+
+ 
+
+@media (max-width:1184px){
+
+    .main-sub h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .main-sub p{
+        font-size: 20px;
+    }
+    
+    .socials a i{
+        font-size: 40px;
+    }
+
+    .signup h1{
+        font-size: 30px;
+        font-weight: 700;       
+    }
+    
+    .signup p{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+
+    .main-sub1{
+        width: 45%;
+    }
+
+    label {
+        font-size: 17px; 
+    }
+    
+    input{
+        padding: 5px 10px; 
+
+    }
+
+    #select{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:1125px){
+
+    .main-sub h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+  .socials a i{
+    font-size: 30px;
+  }
+    
+    input{
+        padding: 5px 5px; 
+
+    }
+ }
+
+
+@media (max-width:1110px){
+
+    .main-sub h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+
+
+    select{
+        padding: 5px 5px;
+    }
+
+#b{
+    padding: 5px 5px;
+    margin-right: 30px;
+    width: 200px;
+
+}
+
+}
+
+@media (max-width:1053px){
+
+    .form-item1{
+        width: 50%;
+    }
+#b{
+    padding: 5px 10px;
+    width: 200px;
+}
+
+
+#select{
+    width: 95%;
+
+}
+
+.c-submit{
+    width: 35%;
+}
+
+}
+
+
+@media (max-width:999px){
+
+    .form-item1{
+        width: 50%;
+        background-color: yellow;
+    }
+#b{
+    padding: 5px 10px;
+    width: 180px;
+}
+
+input{
+    width: 95%;
+}
+
+.c-submit{
+    width: 35%;
+}
+}

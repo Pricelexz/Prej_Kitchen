@@ -1,0 +1,173 @@
+
+
+/* CAREER DESIGNS STARTS HERE */
+
+.career-body{
+    background-color: rgb(3, 3, 3);
+}
+
+
+
+.career-header h1{
+    margin-top: 15px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    /* background-color: rgb(49, 47, 47); */
+    text-align: center;
+    padding: 20px 10px;
+    color: rgb(140, 200, 252);
+    
+    
+}
+
+.career-header p{
+    font-size: 25px;
+    /* background-color: rgb(240, 66, 66); */
+    color: rgb(243, 7, 7);
+    text-align: center;
+    width: 91%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.careerbg{
+    background-image: url(/Images/cake2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    width: 90%;
+}
+
+legend{
+    font-size: 35px;
+    color: rgb(2, 3, 3);
+}
+
+/* Input text design here */
+input[type=text] {
+    width: 30%;
+    padding: 12px;
+    border: 2px solid rgb(245, 77, 113);
+    border-radius: 5px;
+    background-color: transparent;
+    /* background-color: rgb(231, 219, 219); */
+}
+
+
+input[type=text]:focus{
+    font-size: 25px;
+    outline: none;
+    color: rgb(241, 22, 22);
+
+}
+
+/* Here are my Input email design */
+input[type=email] {
+    width: 30%;
+    padding: 12px;
+    border: 2px solid rgb(223, 1, 1);
+    border-radius: 5px;
+    background-color: transparent;
+    /* background-color: rgba(223, 7, 7, 0.507); */
+}
+
+
+input[type=email]:focus{
+    font-size: 25px;
+    outline: none;
+    color: rgb(4, 4, 82);
+
+}
+
+/* 
+ Design for Input tel here */
+input[type=tel] {
+    width: 30%;
+    padding: 12px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+input[type=tel]:focus{
+    font-size: 20px;
+    outline: none;
+    color: rgb(64, 64, 238);
+}
+
+
+/* Here is Select button design */
+select{
+    width: 30%;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Here is my date design */
+input[type=date] { 
+    width: 30%;
+    padding: 12px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+/* Here is my date design */
+input[type=file] { 
+    width: 30%;
+    padding: 12px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input [type=checkbox] {
+    padding:10px 10px;
+    /* justify-content: space-around; */
+    margin-right: 10px;
+    
+}
+
+textarea{
+    padding: 60px;
+    width: 30%;
+}
+
+input[type=reset]{
+    padding: 10px 30px;
+    margin-right: 40px;
+    background: red;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    background-color: green;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+
+::placeholder{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(12, 12, 12);
+
+}
+
+
+
+label{
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+ }
+   
+    
+
